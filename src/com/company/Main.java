@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Podaj wiek psa w latach");
         Scanner entry = new Scanner(System.in);
-        int firstAgeDog = entry.nextInt();
+        double firstAgeDog = entry.nextInt();
         int firstMonthDog = entry.nextInt();
 
         double secondAgeDog = 0;
